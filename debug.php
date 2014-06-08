@@ -1,3 +1,3 @@
 <?php 
-
-var_dump($_POST);
+$O = unserialize(urldecode($_POST['a']));
+var_dump($O);

@@ -6,12 +6,14 @@ $dataFromDb = array(
 	'b' => array('bbb', 'bbbbb', 'bbbbbbbbbb'),
 );
 
+$dataFromDbEncoded = urlencode(serialize( $dataFromDb ));
+
 $url = 'http://' . $vpsIp . '/php-debug-dork/debug.php';
 $options = array(
     'http' => array(
         'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
         'method'  => 'POST',
-        'content' => http_build_query($dataFromDb),
+        'content' => http_build_query($dataFromDbEncoded),
     ),
 );
 $context  = stream_context_create($options);

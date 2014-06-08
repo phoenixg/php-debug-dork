@@ -6,5 +6,7 @@ $dataFromDb = array(
 	'b' => array('bbb', 'bbbbb', 'bbbbbbbbbb'),
 );
 
+$dataFromDbEncoded = serialize($dataFromDb);
 
+echo $dataFromDbEncoded;
 

@@ -10,8 +10,8 @@ php-debug-dork
 - 有些时候，无法判断程序执行到这个地方了
 
 ## PREVIEW
-#### 完全不影响源程序的显示
-![完全不影响源程序的显示](https://raw.githubusercontent.com/phoenixg/php-debug-dork/master/screenshot/php-debug-dork1.png)
+#### 完全不破坏原程序的显示了
+![完全不破坏原程序的显示了](https://raw.githubusercontent.com/phoenixg/php-debug-dork/master/screenshot/php-debug-dork1.png)
 #### 调用很简单，仅需2行
 ![调用很简单，仅需2行](https://raw.githubusercontent.com/phoenixg/php-debug-dork/master/screenshot/php-debug-dork3.png)
 #### 查看report.php,多么nice的输出！

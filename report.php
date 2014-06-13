@@ -1,1 +1,1 @@
-This is an empty file for write.
+chmod -R 777 report.php 

@@ -8,7 +8,8 @@ $dataFromDb = array(
 	'b' => array('bbb', 'bbbbb', 'bbbbbbbbbb'),
 );
 
-$dataFromDbEncoded = urlencode(serialize( $dataFromDb ));
+// $dataFromDbEncoded = urlencode(serialize( $dataFromDb ));
+$dataFromDbEncoded = $dataFromDb;
 
 
 $ch = curl_init();
